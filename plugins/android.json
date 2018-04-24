@@ -36,6 +36,12 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.trackt.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.trackt.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.trackt.app"
     }
   },
   "dependent_plugins": {
