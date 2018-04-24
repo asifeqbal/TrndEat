@@ -11,9 +11,11 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 	<preference name="fullscreen" value="false" />
-    <preference name="SplashScreen" value="screen"/>
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="SplashScreen" value="splash"/>
+	<preference name="SplashScreenDelay" value = "4000" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="universal" />
 	<preference name="StatusBarOverlaysWebView" value="false" />
 	<preference name="StatusBarBackgroundColor" value="#2487d8" />
 	<preference name="StatusBarStyle" value="blacktranslucent" />
@@ -39,12 +41,14 @@
         <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
         <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
         <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+		
         <splash density="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
         <splash density="land-mdpi" src="www/res/screen/android/drawable-land-mdpi-screen.png" />
         <splash density="land-hdpi" src="www/res/screen/android/drawable-land-hdpi-screen.png" />
         <splash density="land-xhdpi" src="www/res/screen/android/drawable-land-xhdpi-screen.png" />
         <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
         <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
+		
         <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
         <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
         <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
